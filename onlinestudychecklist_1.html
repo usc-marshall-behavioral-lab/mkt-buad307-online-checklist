@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#990000">
+<title>Online Study Checklist — BUAD 307</title>
+<meta name="description" content="Step-by-step checklist for completing a BUAD 307 online research study on SONA: setup, sign-up, taking the study, and confirming your credit.">
+<link rel="canonical" href="https://usc-marshall-behavioral-lab.github.io/mkt-buad307-online-checklist/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23990000'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11' fill='none' stroke='%23ffffff' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Marshall Behavioral Research Lab">
+<meta property="og:title" content="Online Study Checklist — BUAD 307">
+<meta property="og:description" content="Step-by-step checklist for completing a BUAD 307 online research study on SONA: setup, sign-up, taking the study, and confirming your credit.">
+<meta property="og:url" content="https://usc-marshall-behavioral-lab.github.io/mkt-buad307-online-checklist/">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cardinal: #990000;
+    --cardinal-dark: #7a0000;
+    --cardinal-light: #FFF5F5;
+    --cardinal-border: #F0D0D0;
+    --gold: #FFCC00;
+    --gold-muted: #D4A804;
+    --ink: #1A1A1A;
+    --ink-soft: #444;
+    --ink-muted: #777;
+    --ink-light: #999;
+    --white: #FFFFFF;
+    --warm-gray: #F8F7F5;
+    --bg: #F5F4F2;
+    --border: #E5E2DD;
+    --border-light: #EEECE8;
+    --success: #16A34A;
+    --success-light: #F0FDF4;
+    --success-border: #BBF7D0;
+    --blue: #2563EB;
+    --blue-light: #EFF6FF;
+    --blue-border: #BFDBFE;
+    --amber: #D97706;
+    --amber-light: #FFFBEB;
+    --amber-border: #FDE68A;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Source Sans 3', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Visible keyboard focus */
+  :focus-visible {
+    outline: 3px solid var(--cardinal);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: var(--cardinal);
+    color: white;
+    text-align: center;
+    padding: 32px 20px 28px;
+    padding-left: max(20px, env(safe-area-inset-left));
+    padding-right: max(20px, env(safe-area-inset-right));
+  }
+  .header-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin-bottom: 8px;
+  }
+  .header h1 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+    margin-bottom: 4px;
+  }
+  .header-sub {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.75;
+  }
+
+  /* ── CONTAINER ── */
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 16px 80px;
+    padding-left: max(16px, env(safe-area-inset-left));
+    padding-right: max(16px, env(safe-area-inset-right));
+    padding-bottom: calc(80px + env(safe-area-inset-bottom));
+  }
+
+  /* ── QUICK LINKS ── */
+  .quick-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin: 16px 0;
+  }
+  .quick-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 12px 8px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--white);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink-soft);
+    text-decoration: none;
+    transition: all 0.15s;
+    cursor: pointer;
+  }
+  button.quick-link { font-family: inherit; width: 100%; }
+  .quick-link:hover { border-color: var(--cardinal); color: var(--cardinal); }
+  .quick-link.sona { background: #FFFAF5; border-color: #F0E4D8; color: #8B5E3C; }
+  .quick-link.handout { background: #FFFFF5; border-color: #EEECDD; color: #7A7238; }
+  .quick-link.directions { background: #FFF5F7; border-color: #F0D8DD; color: var(--cardinal); }
+  .quick-link.help { background: #F8F5FF; border-color: #E0D8F0; color: #5B3E8A; }
+  .ql-icon { font-size: 14px; }
+
+  /* ── PROGRESS ── */
+  .progress-section {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: var(--bg);
+    margin: 0 -16px 12px;
+    padding: 10px 16px 11px;
+    padding-left: max(16px, env(safe-area-inset-left));
+    padding-right: max(16px, env(safe-area-inset-right));
+    border-bottom: 1px solid var(--border);
+  }
+  .progress-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+  .progress-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink-muted);
+  }
+  .progress-count {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--ink-light);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .progress-track {
+    height: 8px;
+    background: var(--border-light);
+    border-radius: 99px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    width: 0%;
+    background: var(--cardinal);
+    border-radius: 99px;
+    transition: width 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  /* ── SECTION CARDS ── */
+  .section-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+  }
+  .section-head {
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid var(--border-light);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    width: 100%;
+    text-align: left;
+    background: var(--white);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: inherit;
+  }
+  .section-head:active { background: var(--warm-gray); }
+  .section-num {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    flex-shrink: 0;
+  }
+  .section-num.prep { background: #E8590C; }
+  .section-num.start { background: #7048E8; }
+  .section-num.during { background: #2B8A3E; }
+  .section-num.after { background: #0C8599; }
+  .section-title {
+    flex: 1;
+    min-width: 0;
+  }
+  .section-heading {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  .section-title .title-main {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+  }
+  .section-title .sub {
+    font-size: 12px;
+    color: var(--ink-muted);
+    font-weight: 400;
+  }
+  .section-chevron {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    transition: transform 0.25s ease;
+    color: var(--ink-light);
+  }
+  .section-card.open .section-chevron { transform: rotate(180deg); }
+  .section-body {
+    display: none;
+    padding: 4px 18px 18px;
+  }
+  .section-card.open .section-body { display: block; }
+
+  /* ── CALLOUTS ── */
+  .callout {
+    padding: 13px 15px;
+    border-radius: 9px;
+    font-size: 14px;
+    line-height: 1.55;
+    margin: 8px 0 12px;
+  }
+  .callout strong { font-weight: 700; }
+  .callout-label {
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: 3px;
+  }
+  .callout-warning {
+    background: var(--cardinal-light);
+    border: 1px solid var(--cardinal-border);
+    color: #991B1B;
+  }
+  .callout-info {
+    background: var(--blue-light);
+    border: 1px solid var(--blue-border);
+    color: #1E40AF;
+  }
+  .callout-tip {
+    background: var(--success-light);
+    border: 1px solid var(--success-border);
+    color: #166534;
+  }
+  .callout ul {
+    margin: 8px 0 0 18px;
+    padding: 0;
+  }
+  .callout li { margin-bottom: 7px; }
+  .callout li:last-child { margin-bottom: 0; }
+
+  /* ── CHECKLIST ITEMS ── */
+  .checklist { list-style: none; }
+  .checklist li {
+    position: relative;
+    padding: 13px 8px 13px 40px;
+    border-bottom: 1px solid var(--border-light);
+    cursor: pointer;
+    transition: opacity 0.2s, background 0.15s;
+    line-height: 1.45;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .checklist li:last-child { border-bottom: none; }
+  .checklist li::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 14px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #CFCAC2;
+    border-radius: 5px;
+    transition: all 0.15s;
+    background: var(--white);
+  }
+  .checklist li:active { background: var(--warm-gray); }
+  .checklist li.checked { opacity: 0.4; text-decoration: line-through; }
+  .checklist li.checked::before {
+    background: var(--cardinal);
+    border-color: var(--cardinal);
+  }
+  .checklist li.checked::after {
+    content: '';
+    position: absolute;
+    left: 13px;
+    top: 21px;
+    width: 10px;
+    height: 5px;
+    border-left: 2.5px solid #fff;
+    border-bottom: 2.5px solid #fff;
+    transform: rotate(-45deg);
+  }
+
+  .cl-hint {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #6B6660;
+    line-height: 1.45;
+    margin-top: 3px;
+    text-decoration: none !important;
+  }
+  .checked .cl-hint { text-decoration: none !important; }
+
+  /* ── GROUP LABEL ── */
+  .group-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 10px 0 4px;
+  }
+  .group-label.setup { color: #E8590C; }
+  .group-label.action { color: #7048E8; }
+  .group-label.check { color: #2B8A3E; }
+  .group-label.verify { color: #0C8599; }
+
+  /* ── RESET ── */
+  .reset-btn {
+    display: block;
+    margin: 20px auto;
+    min-height: 44px;
+    padding: 11px 28px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ink-muted);
+    background: var(--white);
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .reset-btn:active { background: var(--warm-gray); transform: scale(0.97); }
+
+  /* ── BACK TO TOP ── */
+  .to-top {
+    position: fixed;
+    right: 16px;
+    right: max(16px, env(safe-area-inset-right));
+    bottom: 16px;
+    bottom: calc(16px + env(safe-area-inset-bottom));
+    width: 44px;
+    height: 44px;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--white);
+    color: var(--ink-soft);
+    box-shadow: var(--shadow-md);
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity 0.2s, transform 0.2s;
+  }
+  .to-top.show { opacity: 1; transform: translateY(0); }
+  .to-top svg { width: 20px; height: 20px; }
+  .to-top:active { background: var(--warm-gray); }
+
+  /* ── FOOTER ── */
+  .footer {
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 12px;
+    color: var(--ink-light);
+    line-height: 1.7;
+  }
+  .footer-help-link {
+    display: inline-block;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--cardinal);
+    background: none;
+    border: none;
+    padding: 6px 4px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  /* ── HELP SHEET ── */
+  .help-dialog {
+    width: min(420px, calc(100vw - 32px));
+    padding: 18px 18px 14px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: var(--white);
+    color: var(--ink);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.18);
+    margin: auto;
+  }
+  .help-dialog::backdrop { background: rgba(20,16,14,0.45); }
+  .help-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+  .help-title {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .help-close {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background: var(--warm-gray);
+    color: var(--ink-muted);
+    cursor: pointer;
+  }
+  .help-close svg { width: 17px; height: 17px; }
+  .help-close:active { background: var(--border-light); }
+  .help-option {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--white);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  a.help-option:hover { border-color: var(--cardinal); background: var(--cardinal-light); }
+  a.help-option:active { background: var(--warm-gray); }
+  .help-option-static { background: var(--warm-gray); }
+  .help-icon { font-size: 18px; line-height: 1.3; flex-shrink: 0; }
+  .help-text { min-width: 0; }
+  .help-name {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.35;
+  }
+  .help-detail {
+    display: block;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--cardinal);
+    overflow-wrap: anywhere;
+    margin-top: 1px;
+  }
+  .help-option-static .help-detail { color: var(--ink-soft); }
+  .help-note {
+    display: block;
+    font-size: 12px;
+    color: var(--ink-muted);
+    line-height: 1.45;
+    margin-top: 3px;
+  }
+
+  /* ── SCREEN-READER ONLY ── */
+  .sr-only {
+    position: absolute;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .section-card {
+    animation: fadeUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+  .section-card:nth-child(1) { animation-delay: 0.05s; }
+  .section-card:nth-child(2) { animation-delay: 0.1s; }
+  .section-card:nth-child(3) { animation-delay: 0.15s; }
+  .section-card:nth-child(4) { animation-delay: 0.2s; }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+    html { scroll-behavior: auto; }
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 480px) {
+    .quick-links { grid-template-columns: repeat(2, 1fr); }
+    .header h1 { font-size: 22px; }
+    .header { padding: 24px 20px 20px; }
+    /* Hint text carries most of the instruction — don't make it the hardest thing to read */
+    .cl-hint { font-size: 13.5px; }
+    .checklist li { font-size: 15.5px; padding-top: 14px; padding-bottom: 14px; }
+    .checklist li::before { top: 15px; }
+    .checklist li.checked::after { top: 22px; }
+    .callout { font-size: 14.5px; }
+    .section-title .title-main { font-size: 17px; }
+    .section-body { padding-left: 15px; padding-right: 15px; }
+  }
+
+  /* ── PRINT ── */
+  @media print {
+    .header { padding: 16px; }
+    .quick-links, .reset-btn, .to-top, .help-close, .footer-help-link { display: none; }
+    .help-dialog {
+      display: block !important;
+      position: static;
+      width: auto;
+      box-shadow: none;
+      border: 1px solid #ccc;
+      break-inside: avoid;
+    }
+    .help-option { break-inside: avoid; }
+    .progress-section { position: static; border-bottom: none; margin: 0 0 12px; padding: 0; }
+    .section-card { break-inside: avoid; box-shadow: none; border: 1px solid #ccc; }
+    .section-body { display: block !important; }
+    .checklist li::before { border: 2px solid #999; }
+    .checklist li.checked { opacity: 1; text-decoration: none; }
+    .checklist li.checked::before { background: #333; border-color: #333; }
+    .checklist li.checked::after { border-left-color: #fff; border-bottom-color: #fff; }
+  }
+</style>
+</head>
+<body>
+
+<!--
+  ══════════════════════════════════════════════════════════════
+  EVERGREEN DOCUMENT — no semester labels, no dates, no term-
+  stamped links. This file should not need editing between terms.
+
+  Outbound links:
+    bit.ly/buad307-inperson-checklist  → in-person checklist  (evergreen)
+    bit.ly/buad307-online-checklist    → this page            (evergreen)
+    bit.ly/buad307-fall2026            → current handout      (SEMESTER-STAMPED)
+
+  Support contacts (footer + Missing Credit callout): general email
+  mkt.sona@marshall.usc.edu, Slack #buad307-research-participation,
+  and the text-only line (213) 650-0223. Update all copies together.
+
+  ⚠️ THE ONLY THING IN THIS FILE THAT EXPIRES is the handout link
+  in the Quick Links row below (search: bit.ly/buad307-fall2026).
+  Update it every semester when the new handout is published.
+
+  To remove that chore permanently, create one evergreen Bitly
+  (e.g. bit.ly/buad307-handout), point it at the current handout,
+  swap it in here once, and thereafter re-target the Bitly instead
+  of editing this file.
+
+  Deadlines are intentionally referenced as "the deadline in your
+  course handout" so they never go stale here.
+
+  If you ever add or remove a checklist item, bump STORAGE_KEY in
+  the script below (v5 → v6). Saved progress is stored by item
+  position, so returning students would otherwise see the wrong
+  boxes checked.
+  ══════════════════════════════════════════════════════════════
+-->
+
+<!-- Header -->
+<div class="header">
+  <div class="header-eyebrow">BUAD 307 · Research Participation</div>
+  <h1>Online Study Checklist</h1>
+  <div class="header-sub">What to know before, during, and after</div>
+</div>
+
+<div class="container">
+
+  <!-- Quick Links -->
+  <nav class="quick-links" aria-label="Quick links">
+    <a class="quick-link sona" href="https://marshall-mkt.sona-systems.com" target="_blank" rel="noopener"><span class="ql-icon" aria-hidden="true">🔗</span> SONA</a>
+    <a class="quick-link handout" href="https://bit.ly/buad307-fall2026" target="_blank" rel="noopener"><span class="ql-icon" aria-hidden="true">📄</span> Handout</a>
+    <a class="quick-link directions" href="https://bit.ly/buad307-inperson-checklist" target="_blank" rel="noopener"><span class="ql-icon" aria-hidden="true">📋</span> In-Person</a>
+    <button type="button" class="quick-link help" id="helpBtn" aria-haspopup="dialog"><span class="ql-icon" aria-hidden="true">💬</span> Help</button>
+  </nav>
+
+  <!-- Progress -->
+  <div class="progress-section">
+    <div class="progress-row">
+      <span class="progress-label" id="progressLabel">Your progress</span>
+      <span class="progress-count" id="progressCount"></span>
+    </div>
+    <div class="progress-track">
+      <div class="progress-fill" id="progressFill" role="progressbar" aria-labelledby="progressLabel" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+    </div>
+  </div>
+
+  <!-- Read first -->
+  <div class="callout callout-warning">
+    <span class="callout-label">⚠️ Read First</span>
+    <ul>
+      <li><strong>Finish in one sitting.</strong> You can't save your spot. Incomplete sign-ups are canceled each morning.</li>
+      <li><strong>Do the prescreen first.</strong> A SONA account alone doesn't unlock studies. That's usually why none appear.</li>
+      <li><strong>Watch the deadline.</strong> Credits are due by the date in your handout. No extensions.</li>
+    </ul>
+  </div>
+
+  <!-- ═══ SECTION 1: BEFORE YOU START ═══ -->
+  <div class="section-card open">
+    <h3 class="section-heading"><button class="section-head" type="button" aria-expanded="true" aria-controls="sec1">
+      <span class="section-num prep" aria-hidden="true">1</span>
+      <span class="section-title">
+        <span class="title-main">Before You Start</span>
+        <span class="sub">Set up before you sign up · ~2 min</span>
+      </span>
+      <svg class="section-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+    </button></h3>
+    <div class="section-body" id="sec1">
+      <div class="group-label setup">🔧 Environment</div>
+      <ul class="checklist">
+        <li>Find a quiet spot and silence your phone
+          <span class="cl-hint">A library or private room, not a café</span>
+        </li>
+        <li>Use a stable internet connection
+          <span class="cl-hint">Wi-Fi or wired, not cellular</span>
+        </li>
+        <li>Use a laptop or desktop computer
+          <span class="cl-hint">Your phone is fine for this checklist. The study itself needs a computer</span>
+        </li>
+        <li>Open Chrome or Firefox browser
+          <span class="cl-hint">Safari and Edge can break studies</span>
+        </li>
+        <li>Close other browser tabs and apps
+          <span class="cl-hint">Prevents pop-ups and accidental tab switches</span>
+        </li>
+      </ul>
+
+      <div class="group-label action">📋 Have Ready</div>
+      <ul class="checklist">
+        <li><strong>Your 5-6 digit SONA ID</strong>
+          <span class="cl-hint">In your SONA profile or confirmation email</span>
+        </li>
+        <li><strong>Set aside 15 uninterrupted minutes</strong>
+          <span class="cl-hint">Studies take about 10 minutes. Sign up only when you have the time right now</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ═══ SECTION 2: LOG IN & FIND STUDY ═══ -->
+  <div class="section-card open">
+    <h3 class="section-heading"><button class="section-head" type="button" aria-expanded="true" aria-controls="sec2">
+      <span class="section-num start" aria-hidden="true">2</span>
+      <span class="section-title">
+        <span class="title-main">Log In &amp; Find Your Study</span>
+        <span class="sub">Access SONA · ~1 min</span>
+      </span>
+      <svg class="section-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+    </button></h3>
+    <div class="section-body" id="sec2">
+      <ul class="checklist">
+        <li>Go to <strong>marshall-mkt.sona-systems.com</strong>
+          <span class="cl-hint">Look for "Marketing (MKT)" in the header. BUAD 304 uses a different site</span>
+        </li>
+        <li>Log in with your SONA username and password
+          <span class="cl-hint">NetID only, like ttrojan. Not your student ID, and no @usc.edu</span>
+        </li>
+        <li>Navigate to <strong>Available Studies</strong> or click the study link from your invitation email
+          <span class="cl-hint">New studies post most weeks. Spots fill fast, so act quickly</span>
+        </li>
+        <li>Confirm the study name matches your invitation
+          <span class="cl-hint">Each invitation is for one specific study</span>
+        </li>
+        <li>Click <strong>Sign Up</strong> (or <strong>View/Start</strong> if already signed up)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ═══ SECTION 3: DURING THE STUDY ═══ -->
+  <div class="section-card open">
+    <h3 class="section-heading"><button class="section-head" type="button" aria-expanded="true" aria-controls="sec3">
+      <span class="section-num during" aria-hidden="true">3</span>
+      <span class="section-title">
+        <span class="title-main">During the Study</span>
+        <span class="sub">Complete carefully · ~10 min</span>
+      </span>
+      <svg class="section-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+    </button></h3>
+    <div class="section-body" id="sec3">
+      <div class="callout callout-tip">
+        <span class="callout-label">💡 Watch for Attention Checks</span>
+        Some questions check that you're reading, like "Select 'Strongly Agree' for this item." Answer exactly as instructed. Failing them can mean no credit.
+      </div>
+
+      <ul class="checklist">
+        <li>Read all instructions carefully before starting</li>
+        <li>Answer every question thoughtfully and honestly
+          <span class="cl-hint">Rushed answers can cost you the credit</span>
+        </li>
+        <li>Do not refresh or navigate away from the study page
+          <span class="cl-hint">Refreshing or going back can lose your progress</span>
+        </li>
+        <li>Enter your <strong>5-6 digit SONA ID</strong> when prompted
+          <span class="cl-hint">This is how the credit reaches your account</span>
+        </li>
+        <li>Complete the entire study in one sitting
+          <span class="cl-hint">You cannot pause and return later</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ═══ SECTION 4: AFTER COMPLETING ═══ -->
+  <div class="section-card open">
+    <h3 class="section-heading"><button class="section-head" type="button" aria-expanded="true" aria-controls="sec4">
+      <span class="section-num after" aria-hidden="true">4</span>
+      <span class="section-title">
+        <span class="title-main">After Completing</span>
+        <span class="sub">Verify your credit · ~1 min</span>
+      </span>
+      <svg class="section-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+    </button></h3>
+    <div class="section-body" id="sec4">
+      <ul class="checklist">
+        <li>Confirm you reached the study's final <strong>"Thank You"</strong> page
+          <span class="cl-hint">No confirmation page means it may not have recorded</span>
+        </li>
+        <li>Return to SONA, entering a completion code if the study gave you one
+          <span class="cl-hint">Some redirect automatically. Enter any code before closing the tab</span>
+        </li>
+        <li>Verify the study shows as <strong>"Participated"</strong> (not "Signed Up") in SONA
+          <span class="cl-hint">Go to My Schedule/Credits → check the status column</span>
+        </li>
+        <li>Don't discuss study content with classmates
+          <span class="cl-hint">It skews results for students who haven't taken it yet</span>
+        </li>
+      </ul>
+
+      <div class="callout callout-info" style="margin-top: 10px;">
+        <span class="callout-label">📧 Missing Credit?</span>
+        Credits usually post within 24 hours. If yours hasn't, email <strong>mkt.sona@marshall.usc.edu</strong> with your name, SONA ID, and the study name. A screenshot helps. Quick question? Slack <strong>#buad307-research-participation</strong> or text <a href="sms:+12136500223"><strong>(213) 650-0223</strong></a>.
+      </div>
+    </div>
+  </div>
+
+  <button class="reset-btn" id="resetBtn" type="button">↻ Reset All Checklists</button>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Back to top" hidden>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <div class="footer">
+    <button type="button" class="footer-help-link" id="helpBtnFooter" aria-haspopup="dialog">Need help? See contact options</button>
+    Marshall Behavioral Research Lab · USC Marshall School of Business<br>
+    BUAD 307 Research Participation Program
+  </div>
+
+</div>
+
+<dialog class="help-dialog" id="helpDialog" aria-labelledby="helpDialogTitle">
+  <div class="help-head">
+    <h2 class="help-title" id="helpDialogTitle">Need help?</h2>
+    <button type="button" class="help-close" id="helpClose" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+
+  <a class="help-option" href="mailto:mkt.sona@marshall.usc.edu">
+    <span class="help-icon" aria-hidden="true">✉️</span>
+    <span class="help-text">
+      <span class="help-name">Email the SONA team</span>
+      <span class="help-detail">mkt.sona@marshall.usc.edu</span>
+      <span class="help-note">Best for credit problems and anything needing a record</span>
+    </span>
+  </a>
+
+  <div class="help-option help-option-static">
+    <span class="help-icon" aria-hidden="true">💬</span>
+    <span class="help-text">
+      <span class="help-name">Slack</span>
+      <span class="help-detail">#buad307-research-participation</span>
+      <span class="help-note">In the USC Marshall workspace. Best for quick questions</span>
+    </span>
+  </div>
+
+  <a class="help-option" href="sms:+12136500223">
+    <span class="help-icon" aria-hidden="true">📱</span>
+    <span class="help-text">
+      <span class="help-name">Text us</span>
+      <span class="help-detail">(213) 650-0223</span>
+      <span class="help-note">Text only, no calls. Best if something is going wrong right now</span>
+    </span>
+  </a>
+</dialog>
+
+<script>
+(function() {
+  'use strict';
+
+  /* Bump this key whenever checklist items are added, removed, or reordered. */
+  var STORAGE_KEY = 'buad307_online_cl_v5';
+
+  var items = Array.prototype.slice.call(document.querySelectorAll('.checklist li'));
+  var totalItems = items.length;
+  var progressFill = document.getElementById('progressFill');
+  var progressCount = document.getElementById('progressCount');
+
+  /* Make each checklist item a real, keyboard-operable checkbox. */
+  items.forEach(function(li) {
+    li.setAttribute('role', 'checkbox');
+    li.setAttribute('tabindex', '0');
+    li.setAttribute('aria-checked', 'false');
+  });
+
+  function updateProgress() {
+    var checked = document.querySelectorAll('.checklist li.checked').length;
+    var pct = totalItems > 0 ? Math.round((checked / totalItems) * 100) : 0;
+    progressFill.style.width = pct + '%';
+    progressFill.setAttribute('aria-valuenow', String(pct));
+    progressFill.setAttribute('aria-valuetext', checked + ' of ' + totalItems + ' items complete');
+    progressFill.style.background = (checked === totalItems && totalItems > 0) ? '#16A34A' : 'var(--cardinal)';
+    progressCount.textContent = checked + ' of ' + totalItems + ' complete';
+  }
+
+  function saveState() {
+    var state = [];
+    items.forEach(function(li, i) {
+      if (li.classList.contains('checked')) state.push(i);
+    });
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
+  }
+
+  function loadState() {
+    try {
+      var state = JSON.parse(localStorage.getItem(STORAGE_KEY));
+      if (state && Array.isArray(state)) {
+        state.forEach(function(i) {
+          if (items[i]) {
+            items[i].classList.add('checked');
+            items[i].setAttribute('aria-checked', 'true');
+          }
+        });
+      }
+    } catch (e) {}
+  }
+
+  function toggleItem(li) {
+    var nowChecked = li.classList.toggle('checked');
+    li.setAttribute('aria-checked', nowChecked ? 'true' : 'false');
+    updateProgress();
+    saveState();
+  }
+
+  items.forEach(function(li) {
+    li.addEventListener('click', function() { toggleItem(li); });
+    li.addEventListener('keydown', function(e) {
+      if (e.key === ' ' || e.key === 'Enter' || e.key === 'Spacebar') {
+        e.preventDefault();
+        toggleItem(li);
+      }
+    });
+  });
+
+  /* On phones, start with only Section 1 open so all four steps fit one screen.
+     A section that already has checked items stays open so returning students
+     don't lose their place. Desktop and print are unaffected. */
+  function collapseForPhone() {
+    if (window.innerWidth > 640) return;
+    var cards = document.querySelectorAll('.section-card');
+    cards.forEach(function(card, i) {
+      if (i === 0) return;
+      if (card.querySelector('.checklist li.checked')) return;
+      card.classList.remove('open');
+      card.querySelector('.section-head').setAttribute('aria-expanded', 'false');
+    });
+  }
+
+  /* Collapsible sections: real buttons, so keyboard and screen readers work. */
+  document.querySelectorAll('.section-head').forEach(function(head) {
+    head.addEventListener('click', function() {
+      var card = head.closest('.section-card');
+      var open = card.classList.toggle('open');
+      head.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+
+  document.getElementById('resetBtn').addEventListener('click', function() {
+    if (confirm('Reset all checklists? This cannot be undone.')) {
+      items.forEach(function(li) {
+        li.classList.remove('checked');
+        li.setAttribute('aria-checked', 'false');
+      });
+      updateProgress();
+      saveState();
+    }
+  });
+
+  /* Back to top, shown once the page has scrolled a screen or so. */
+  var toTop = document.getElementById('toTop');
+  function syncToTop() {
+    var show = window.scrollY > 700;
+    toTop.hidden = !show;
+    if (show) { requestAnimationFrame(function(){ toTop.classList.add('show'); }); }
+    else { toTop.classList.remove('show'); }
+  }
+  toTop.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  window.addEventListener('scroll', syncToTop, { passive: true });
+
+  /* Help sheet. Opening a dialog keeps the student where they were on the page,
+     which scrolling them to a footer would not. Falls back to scrolling the
+     options into view if the dialog element is unsupported. */
+  var helpDialog = document.getElementById('helpDialog');
+  var supportsDialog = typeof helpDialog.showModal === 'function';
+
+  function openHelp() {
+    if (supportsDialog) {
+      helpDialog.showModal();
+    } else {
+      helpDialog.setAttribute('open', '');
+      helpDialog.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+  function closeHelp() {
+    if (supportsDialog) { helpDialog.close(); }
+    else { helpDialog.removeAttribute('open'); }
+  }
+
+  document.getElementById('helpBtn').addEventListener('click', openHelp);
+  document.getElementById('helpBtnFooter').addEventListener('click', openHelp);
+  document.getElementById('helpClose').addEventListener('click', closeHelp);
+
+  /* Tap outside the sheet to dismiss. */
+  helpDialog.addEventListener('click', function(e) {
+    if (e.target === helpDialog) closeHelp();
+  });
+
+  /* Picking an option closes the sheet behind it. */
+  helpDialog.querySelectorAll('a.help-option').forEach(function(a) {
+    a.addEventListener('click', function() { setTimeout(closeHelp, 120); });
+  });
+
+  loadState();
+  updateProgress();
+  collapseForPhone();
+  syncToTop();
+})();
+</script>
+
+</body>
+</html>
