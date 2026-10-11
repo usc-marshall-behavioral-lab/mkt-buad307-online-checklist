@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>In-Person Session Checklist | BUAD 307 Research Participation</title>
+<meta name="description" content="BUAD 307 In-Person Session Checklist: what to know, bring, and expect for your research participation lab session at USC Marshall.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#7a0019">
+<meta property="og:title" content="BUAD 307 In-Person Session Checklist">
+<meta property="og:description" content="What to know, bring, and expect for your lab session.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f4f2ee; --card:#faf9f6; --card-alt:#f7f5f1; --surface:#ffffff;
+    --border:#ded9d1; --border-strong:#c8c1b5;
+    --text:#26241f; --text-soft:#3a3a3a; --muted:#65625c;
+    --cardinal:#7a0019; --cardinal-bright:#8f0014;
+    --cardinal-tint:#fbeef0; --cardinal-tint-border:#edc9ce;
+    --gold:#7d6209; --gold-soft:#9c7d1f;
+    --gold-tint:#faf4e4; --gold-tint-border:#e4d3a6;
+    --green:#2f6b2f; --green-tint:#eef6ee; --green-tint-border:#c3ddc3;
+    --focus:#0a5ad6;
+    --on-cardinal:#ffffff; --on-gold:#ffffff;
+    --shadow:0 1px 2px rgba(40,30,15,.06);
+    --radius:14px;
+    --serif:'Playfair Display',Georgia,'Times New Roman',serif;
+    --sans:'Source Sans 3',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#16120f; --card:#1e1813; --card-alt:#231c16; --surface:#241d17;
+      --border:#3d342b; --border-strong:#554a3e;
+      --text:#f1eae0; --text-soft:#ddd4c7; --muted:#b0a596;
+      --cardinal:#f07d90; --cardinal-bright:#ff93a3;
+      --cardinal-tint:#3a191f; --cardinal-tint-border:#632c37;
+      --gold:#e6c060; --gold-soft:#c9a44a;
+      --gold-tint:#332912; --gold-tint-border:#584821;
+      --green:#8ccd8c; --green-tint:#182a18; --green-tint-border:#2f4f2f;
+      --focus:#7fb4ff;
+      --on-cardinal:#2b0a10; --on-gold:#2a2205;
+      --shadow:0 1px 3px rgba(0,0,0,.45);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#16120f; --card:#1e1813; --card-alt:#231c16; --surface:#241d17;
+    --border:#3d342b; --border-strong:#554a3e;
+    --text:#f1eae0; --text-soft:#ddd4c7; --muted:#b0a596;
+    --cardinal:#f07d90; --cardinal-bright:#ff93a3;
+    --cardinal-tint:#3a191f; --cardinal-tint-border:#632c37;
+    --gold:#e6c060; --gold-soft:#c9a44a;
+    --gold-tint:#332912; --gold-tint-border:#584821;
+    --green:#8ccd8c; --green-tint:#182a18; --green-tint-border:#2f4f2f;
+    --focus:#7fb4ff;
+    --on-cardinal:#2b0a10; --on-gold:#2a2205;
+    --shadow:0 1px 3px rgba(0,0,0,.45);
+  }
+
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} *{transition:none!important;animation:none!important} }
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased;}
+  .page{max-width:940px;margin:0 auto;padding:0 18px 70px;}
+  [id]{scroll-margin-top:150px;}
+  :focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px;}
+  a{color:var(--cardinal-bright);text-decoration:underline;text-underline-offset:2px;}
+  a:hover{text-decoration-thickness:2px;}
+
+  .skip{position:absolute;left:-9999px;top:0;background:var(--cardinal);color:var(--on-cardinal);padding:12px 18px;z-index:50;border-radius:0 0 8px 0;font-weight:700;text-decoration:none;}
+  .skip:focus{left:0;}
+  .icon{width:1.1em;height:1.1em;flex:0 0 auto;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;}
+
+  /* ---------- Sticky nav + progress ---------- */
+  .quicknav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--border);}
+  .quicknav-in{max-width:940px;margin:0 auto;padding:8px 14px;display:flex;gap:8px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;}
+  .quicknav-in::-webkit-scrollbar{display:none;}
+  .quicknav-in a{display:inline-flex;align-items:center;gap:6px;flex:0 0 auto;min-height:44px;padding:0 15px;border-radius:22px;background:var(--card-alt);border:1px solid var(--border);color:var(--text-soft);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap;}
+  .quicknav-in a:hover{border-color:var(--cardinal);color:var(--cardinal);}
+  .quicknav-in a.hi{background:var(--cardinal);border-color:var(--cardinal);color:var(--on-cardinal);}
+  .qn-wrap{position:relative;}
+  .qn-wrap::before,.qn-wrap::after{content:"";position:absolute;top:0;bottom:0;width:64px;pointer-events:none;transition:opacity .2s ease;z-index:1;}
+  .qn-wrap::before{left:0;background:linear-gradient(to right,var(--bg) 25%,transparent);}
+  .qn-wrap::after{right:0;background:linear-gradient(to left,var(--bg) 25%,transparent);}
+  .qn-wrap.at-start::before{opacity:0;}
+  .qn-wrap.at-end::after{opacity:0;}
+  .qn-more{position:absolute;right:10px;top:50%;transform:translateY(-50%);width:36px;height:36px;border-radius:50%;background:var(--cardinal);color:var(--on-cardinal);border:0;padding:0;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 1px 5px rgba(0,0,0,.22);z-index:2;}
+  .qn-more .icon{width:18px;height:18px;stroke-width:2.6;transform:rotate(-90deg);}
+  .qn-wrap.at-end .qn-more{display:none;}
+  @media(max-width:940px){ .quicknav-in{padding-right:56px;} }
+
+  .navprog{max-width:940px;margin:0 auto;padding:2px 18px 10px;display:flex;align-items:center;gap:12px;font-size:14px;font-weight:600;color:var(--muted);}
+  .navprog .prog-track{flex:1;margin:0;}
+  .navprog .prog-count{white-space:nowrap;}
+
+  .top-btn{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));width:52px;height:52px;border-radius:50%;background:var(--cardinal);color:var(--on-cardinal);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 12px rgba(0,0,0,.3);z-index:30;text-decoration:none;}
+  .top-btn .icon{width:24px;height:24px;stroke-width:2.2;}
+
+  /* ---------- Masthead ---------- */
+  .masthead{padding:30px 0 20px;border-bottom:4px solid var(--cardinal);margin-bottom:28px;}
+  .eyebrow{font-size:13px;letter-spacing:.14em;font-weight:700;text-transform:uppercase;color:var(--cardinal);margin:0;}
+  h1.title{font-family:var(--serif);font-weight:600;font-size:clamp(34px,7.2vw,58px);line-height:1.04;margin:6px 0 0;letter-spacing:-.01em;text-wrap:balance;}
+  .lede{font-size:18px;color:var(--muted);margin:10px 0 0;}
+  @media(max-width:560px){ .masthead{padding:20px 0 16px;margin-bottom:22px;} }
+
+  .glance{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);margin:20px 0 0;}
+  .glance div.row{display:grid;grid-template-columns:170px 1fr;gap:16px;align-items:start;padding:15px 18px;border-bottom:1px solid var(--border);}
+  .glance div.row:last-child{border-bottom:0;}
+  .glance dt{display:flex;align-items:center;gap:11px;font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--cardinal);font-weight:700;margin:0;}
+  .g-ico{width:40px;height:40px;border-radius:10px;background:var(--cardinal-tint);color:var(--cardinal);display:flex;align-items:center;justify-content:center;flex:0 0 auto;}
+  .g-ico .icon{width:21px;height:21px;}
+  .glance dd{margin:0;font-size:16.5px;line-height:1.45;padding-top:9px;}
+  .glance dd .sub{display:block;font-size:14px;color:var(--muted);margin-top:3px;}
+  @media(max-width:620px){
+    .glance div.row{grid-template-columns:1fr;gap:5px;padding:12px 14px;}
+    .glance dt{font-size:12px;gap:10px;}
+    .g-ico{width:34px;height:34px;border-radius:9px;}
+    .g-ico .icon{width:18px;height:18px;}
+    .glance dd{padding-top:0;padding-left:44px;font-size:15.5px;line-height:1.38;}
+    .glance dd .sub{font-size:13.5px;line-height:1.35;}
+  }
+
+  .strip{display:flex;align-items:center;gap:13px;background:var(--cardinal);color:var(--on-cardinal);border-radius:12px;padding:14px 18px;margin:18px 0 0;}
+  .strip .icon{width:24px;height:24px;flex:0 0 auto;stroke-width:2.2;}
+  .strip b{display:block;font-size:17px;}
+  .strip i{display:block;font-style:normal;font-size:14px;opacity:.85;}
+
+  /* ---------- Sections ---------- */
+  section{margin:0 0 26px;}
+  h2.sec{font-family:var(--serif);font-weight:600;font-size:clamp(24px,5.2vw,30px);margin:34px 0 4px;display:flex;align-items:center;gap:11px;text-wrap:balance;}
+  h2.sec .icon{width:1em;height:1em;color:var(--cardinal);stroke-width:2;}
+  .sec-sub{color:var(--muted);margin:0 0 16px;font-size:16px;}
+
+  /* ---------- Progress ---------- */
+  .prog-track{display:block;height:12px;border-radius:6px;background:var(--card-alt);border:1px solid var(--border);overflow:hidden;}
+  .prog-fill{display:block;height:100%;width:0;background:var(--cardinal);border-radius:5px;transition:width .25s ease;}
+  .prog-count{color:var(--cardinal);font-weight:700;}
+
+  .done-banner{display:flex;align-items:center;gap:13px;background:var(--green-tint);border:1px solid var(--green-tint-border);color:var(--green);border-radius:12px;padding:14px 18px;margin:0 0 6px;}
+  .done-banner .icon{width:26px;height:26px;stroke-width:2.2;}
+  .done-banner b{display:block;font-family:var(--serif);font-size:19px;font-weight:600;}
+  .done-banner i{display:block;font-style:normal;font-size:15px;color:var(--text-soft);}
+
+  /* ---------- Checklist ---------- */
+  .ck{background:var(--surface);border:1px solid var(--border);border-left:5px solid var(--cardinal);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);}
+  .ck.gold{border-left-color:var(--gold-soft);}
+  .ck-item{display:grid;grid-template-columns:24px 1fr;gap:14px;align-items:start;padding:14px 16px;border-bottom:1px solid var(--border);cursor:pointer;transition:background .15s ease;}
+  .ck-item:last-child{border-bottom:0;}
+  .ck-item:hover{background:var(--card-alt);}
+  .ck-item input{width:24px;height:24px;margin:1px 0 0;accent-color:var(--cardinal);cursor:pointer;}
+  .ck-item b{color:var(--text);font-weight:700;}
+  .ck-text{font-size:16px;color:var(--text-soft);line-height:1.5;}
+  .ck-text .sub{display:block;font-size:14.5px;color:var(--muted);margin-top:3px;}
+  .ck-item.done{background:var(--card-alt);}
+  .ck-item.done .ck-text > span:first-child{text-decoration:line-through;text-decoration-color:var(--muted);color:var(--muted);}
+  .ck-item.done b{color:var(--muted);}
+
+  .note{border-radius:10px;padding:14px 16px;font-size:15.5px;border:1px solid var(--border);background:var(--card-alt);display:flex;gap:11px;align-items:flex-start;color:var(--text-soft);}
+  .note .icon{width:21px;height:21px;flex:0 0 auto;margin-top:2px;color:var(--cardinal);}
+  .note.warn{background:var(--cardinal-tint);border-color:var(--cardinal-tint-border);}
+  .note.gold{background:var(--gold-tint);border-color:var(--gold-tint-border);}
+  .note.gold .icon{color:var(--gold);}
+  .note.green{background:var(--green-tint);border-color:var(--green-tint-border);}
+  .note.green .icon{color:var(--green);}
+  .note p{margin:0;}
+  .note b{color:var(--cardinal);}
+  .note.gold b{color:var(--gold);}
+  .note.green b{color:var(--green);}
+  .mt{margin-top:14px!important;}
+
+  /* ---------- Contact ---------- */
+  .touch-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  @media(max-width:780px){.touch-grid{grid-template-columns:1fr;}}
+  .touch-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow);}
+  .touch-card h3{display:flex;align-items:center;gap:9px;margin:0 0 8px;font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--cardinal);font-weight:700;font-family:var(--sans);}
+  .touch-card .big{font-size:17px;font-weight:700;margin:3px 0;word-break:break-word;}
+  .touch-card .big a{min-height:44px;display:inline-flex;align-items:center;}
+  .touch-card p{margin:3px 0;font-size:14px;color:var(--muted);}
+
+  .guide-cta{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;background:var(--cardinal);color:var(--on-cardinal);border-radius:12px;padding:18px 20px;margin-top:22px;}
+  .guide-cta strong{font-family:var(--serif);font-size:19px;display:block;}
+  .guide-cta p{margin:3px 0 0;color:var(--on-cardinal);opacity:.85;font-size:15px;}
+  .guide-cta a.btn{background:var(--on-cardinal);color:var(--cardinal);font-weight:700;padding:0 18px;min-height:44px;display:inline-flex;align-items:center;border-radius:8px;text-decoration:none;}
+
+  .reset-wrap{text-align:center;margin-top:26px;}
+  .reset-btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 18px;border-radius:22px;border:1px solid var(--border);background:var(--card-alt);color:var(--text-soft);font:inherit;font-size:14px;font-weight:600;cursor:pointer;}
+  .reset-btn:hover{border-color:var(--cardinal);color:var(--cardinal);}
+  footer.foot{margin-top:30px;padding-top:16px;border-top:1px solid var(--border);font-size:14px;color:var(--muted);text-align:center;}
+
+  :root{color-scheme:light dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);}
+  :root[data-theme="light"]{color-scheme:light;}
+  :root[data-theme="dark"]{color-scheme:dark;}
+  [hidden]{display:none!important;}
+
+  @media print{
+    .quicknav,.top-btn,.reset-wrap,.done-banner,.skip{display:none!important;}
+    body{background:#fff;color:#000;font-size:13px;}
+    .page{max-width:100%;padding:0;}
+    .masthead{padding:8px 0 10px;margin-bottom:12px;}
+    h2.sec{margin-top:16px;font-size:20px;}
+    section,.note,.ck{break-inside:avoid;box-shadow:none;}
+    .ck-item{padding:7px 12px;}
+  }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+  <symbol id="i-clipboard" viewBox="0 0 24 24"><rect x="5" y="4.5" width="14" height="16" rx="2.5"/><path d="M9 4.5V3.6A1.6 1.6 0 0110.6 2h2.8A1.6 1.6 0 0115 3.6v.9zM9 13l2.2 2.2L15.5 11"/></symbol>
+  <symbol id="i-door" viewBox="0 0 24 24"><path d="M5 21V4.5A1.5 1.5 0 016.5 3h9A1.5 1.5 0 0117 4.5V21M3 21h18"/><circle cx="14" cy="12.5" r=".9" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M9 20h6M12 16.5V20"/></symbol>
+  <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8.2 12.3l2.6 2.6 5-5.2"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2.8l7.5 3v5.6c0 4.6-3.1 8.8-7.5 10.1-4.4-1.3-7.5-5.5-7.5-10.1V5.8z"/><path d="M9 12l2.2 2.2 4-4.2"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20.5 12.6c0 3.9-3.8 7-8.5 7-1.2 0-2.3-.2-3.3-.5L3.5 20.5l1.6-4a6.6 6.6 0 01-1.6-4.3c0-3.9 3.8-7 8.5-7s8.5 3.1 8.5 7z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="M3.8 7l8.2 6 8.2-6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21.5s6.5-6.1 6.5-11a6.5 6.5 0 10-13 0c0 4.9 6.5 11 6.5 11z"/><circle cx="12" cy="10.3" r="2.5"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="12" r="4"/><path d="M12 12h9M18 12v3.5M15.5 12v2.5"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.3l3.4 2"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.8v5"/><circle cx="12" cy="16.2" r=".9" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.4a2.5 2.5 0 114.2 2c-.9.7-1.8 1.2-1.8 2.4"/><circle cx="12" cy="17" r=".9" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4.8h6a3 3 0 013 3v12a2.4 2.4 0 00-2.4-2.4H4zM20 4.8h-6a3 3 0 00-3 3v12a2.4 2.4 0 012.4-2.4H20z"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a4.5 4.5 0 006.4 0l3.2-3.2a4.5 4.5 0 00-6.4-6.4L11.8 5.8"/><path d="M14 10a4.5 4.5 0 00-6.4 0l-3.2 3.2a4.5 4.5 0 006.4 6.4l1.4-1.4"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3.5 11L12 4l8.5 7"/><path d="M6 9.5V20h12V9.5"/></symbol>
+  <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 00-3.6 10.8c.7.5 1.1 1.3 1.1 2.2h5c0-.9.4-1.7 1.1-2.2A6 6 0 0012 3z"/></symbol>
+  <symbol id="i-reset" viewBox="0 0 24 24"><path d="M4 12a8 8 0 102.3-5.6"/><path d="M4 4v4.5h4.5"/></symbol>
+  <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19.5v-15M5.5 11L12 4.5 18.5 11"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="M6 9.5l6 6 6-6"/></symbol>
+</defs></svg>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<nav class="quicknav" id="top" aria-label="Page sections and quick links">
+  <div class="qn-wrap">
+  <div class="quicknav-in">
+    <a href="#before"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clipboard"/></svg>Before</a>
+    <a href="#arrive"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-door"/></svg>Arrival</a>
+    <a href="#during"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-monitor"/></svg>During</a>
+    <a href="#after"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>After</a>
+    <a href="#policies"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg>Policies</a>
+    <a class="hi" href="sms:2138347766"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat"/></svg>Text us</a>
+    <a href="https://marshall-mkt.sona-systems.com" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-link"/></svg>SONA</a>
+    <a href="https://maps.usc.edu/?id=1928&amp;reference=VPD" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg>Directions</a>
+    <a href="https://bit.ly/buad307-fall2026" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-book"/></svg>Handout</a>
+    <a href="https://usc-marshall-behavioral-lab.github.io/SONA-MKT-BUAD-307/"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-home"/></svg>Program site</a>
+  </div>
+  <button class="qn-more" type="button" aria-label="Show more links"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chevron"/></svg></button>
+  </div>
+  <div class="navprog">
+    <span>Your progress</span>
+    <span class="prog-track"><span class="prog-fill" id="progFill" role="progressbar" aria-label="Checklist items complete" aria-valuemin="0" aria-valuemax="22" aria-valuenow="0"></span></span>
+    <span class="prog-count" id="progCount">0 of 22</span>
+  </div>
+</nav>
+
+<a class="top-btn" href="#top" aria-label="Back to top"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-up"/></svg></a>
+
+<main id="main" class="page">
+
+  <header class="masthead">
+    <p class="eyebrow">BUAD 307 · Research Participation</p>
+    <h1 class="title">In-Person Session Checklist</h1>
+    <p class="lede">What to know, bring, and expect for your lab session. Tap an item to check it off, and this page remembers.</p>
+
+    <dl class="glance">
+      <div class="row">
+        <dt><span class="g-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg></span><span>Where</span></dt>
+        <dd><b>VPD LL102</b>, Verna &amp; Peter Dauterive Hall, lower level<span class="sub">635 Downey Way, Los Angeles, CA 90089 · <a href="https://maps.usc.edu/?id=1928&amp;reference=VPD" target="_blank" rel="noopener noreferrer">USC Campus Map</a> · <a href="https://www.google.com/maps/search/?api=1&amp;query=635+Downey+Way+Los+Angeles+CA+90089" target="_blank" rel="noopener noreferrer">Google Maps</a></span></dd>
+      </div>
+      <div class="row">
+        <dt><span class="g-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-key"/></svg></span><span>Bring</span></dt>
+        <dd>Your <b>SONA ID</b>, the 5-digit number on your SONA profile<span class="sub">Only water is allowed in the lab, so eat before you arrive.</span></dd>
+      </div>
+      <div class="row">
+        <dt><span class="g-ico"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg></span><span>Length</span></dt>
+        <dd>The full scheduled time, about <b>60 minutes</b><span class="sub">Everyone starts and ends together. You cannot leave early.</span></dd>
+      </div>
+    </dl>
+
+    <div class="strip">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-alert"/></svg>
+      <span>
+        <b>Late arrivals cannot be admitted</b>
+        <i>Doors close at the start time. Arrive 10 minutes early.</i>
+      </span>
+    </div>
+  </header>
+
+  <div class="done-banner" id="completeBanner" hidden>
+    <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>
+    <span><b>You're all set</b><i>You've reviewed everything. Good luck with your session!</i></span>
+  </div>
+
+  <!-- ===== Before you go ===== -->
+  <section id="before">
+    <h2 class="sec"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clipboard"/></svg>Before You Go</h2>
+    <p class="sec-sub">Prepare the day before or the morning of.</p>
+    <div class="ck">
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Know your SONA ID.</b> It's the 5-digit number on your SONA profile.</span><span class="sub">Screenshot it or write it down. You'll need it at check-in.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Confirm your session date and time</b> on <a href="https://marshall-mkt.sona-systems.com" target="_blank" rel="noopener noreferrer">SONA</a>.</span><span class="sub">Check the day before. Sessions cannot accommodate late arrivals.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Know the location:</b> VPD LL102, Verna &amp; Peter Dauterive Hall, lower level.</span><span class="sub">635 Downey Way, Los Angeles, CA 90089. <a href="https://maps.usc.edu/?id=1928&amp;reference=VPD" target="_blank" rel="noopener noreferrer">USC Campus Map</a> · <a href="https://www.google.com/maps/search/?api=1&amp;query=635+Downey+Way+Los+Angeles+CA+90089" target="_blank" rel="noopener noreferrer">Google Maps</a></span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Only water is allowed</b> in the lab. No other food or drinks.</span><span class="sub">Eat before you arrive. Sessions last the full scheduled time.</span></span></label>
+    </div>
+  </section>
+
+  <!-- ===== When you arrive ===== -->
+  <section id="arrive">
+    <h2 class="sec"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-door"/></svg>When You Arrive</h2>
+    <p class="sec-sub">Arrive 10 minutes early, since doors close at the start time. Can't find the lab? <a href="sms:2138347766">Text us</a>.</p>
+    <div class="ck">
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Arrive 10 minutes early.</b> You'll enter one by one.</span><span class="sub">All lab doors are card-access locked, so ring the doorbell at the LL102 suite. A research assistant will open the door and check you in.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Give the RA your SONA ID</b> (5-digit number) so they can check you off the list.</span><span class="sub">No ID? You can use your name and USC email instead.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Turn your phone completely off</b> (not just silent) and hand it to the RA.</span><span class="sub">It will be placed in a wall pocket and returned at the end.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Place your bag along the back wall.</b> You'll receive a post-it with your ID. Stick it on your station.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Sit at the assigned seat.</b> The RA will direct you, so don't choose your own.</span><span class="sub">Friends are seated separately to preserve research quality.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Don't touch the computer</b> until the RA says to begin. Everyone starts together.</span></span></label>
+    </div>
+  </section>
+
+  <!-- ===== During the session ===== -->
+  <section id="during">
+    <h2 class="sec"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-monitor"/></svg>During the Session</h2>
+    <p class="sec-sub">Follow RA instructions throughout.</p>
+    <div class="ck">
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Complete studies in the order given by the RA,</b> not the order shown in your folder.</span><span class="sub">The RA manages the study rotation for research accuracy.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Raise your hand after finishing each study.</b> An assistant will tell you what to do next.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Read instructions carefully and answer honestly.</b> There are no right or wrong answers.</span><span class="sub">Studies cover marketing topics: surveys, product evaluations, decision scenarios.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>If you finish early, stay quiet.</b> You can browse the web on the lab computer while you wait.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>You cannot leave early.</b> The session ends at the scheduled time for everyone.</span></span></label>
+    </div>
+  </section>
+
+  <!-- ===== After the session ===== -->
+  <section id="after">
+    <h2 class="sec"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>After the Session</h2>
+    <p class="sec-sub">Wrap-up and credit.</p>
+    <div class="ck">
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Pick up your phone</b> from the wall pocket on your way out.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Credits post within 24 hours,</b> unless the study page says otherwise. Check your <a href="https://marshall-mkt.sona-systems.com" target="_blank" rel="noopener noreferrer">SONA profile</a> to confirm.</span><span class="sub">If it has been longer, email <a href="mailto:mkt.sona&#64;marshall.usc.edu">mkt.sona&#64;marshall.usc.edu</a> with your SONA ID and the study name and date.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Don't discuss study content</b> with classmates or other students. This protects research validity.</span></span></label>
+    </div>
+  </section>
+
+  <!-- ===== Key policies ===== -->
+  <section id="policies">
+    <h2 class="sec"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg>Key Policies</h2>
+    <p class="sec-sub">Important rules to understand.</p>
+    <div class="ck gold">
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>One in-person session per semester.</b> A second session earns no credit, and the system tracks participation.</span><span class="sub">If unsure whether you've attended, check your <a href="https://marshall-mkt.sona-systems.com" target="_blank" rel="noopener noreferrer">SONA credit history</a>.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Late arrivals cannot be admitted.</b> All participants must start together for research validity, with no exceptions.</span><span class="sub">Doors close at the start time. Arrive 10 minutes early.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Cancel 8+ hours ahead on <a href="https://marshall-mkt.sona-systems.com" target="_blank" rel="noopener noreferrer">SONA</a></b> if you can't make it (illness, emergency, etc.).</span><span class="sub">No-shows or late cancellations count as unexcused and may affect future scheduling.</span></span></label>
+      <label class="ck-item"><input type="checkbox" class="ck-box"><span class="ck-text"><span><b>Your responses are confidential.</b> They are never shared with your instructor or linked to your identity.</span><span class="sub">Your instructor only receives your final credit total at the end of the term.</span></span></label>
+    </div>
+
+    <div class="note green mt">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-bulb"/></svg>
+      <p><b>No preparation is needed for the studies themselves.</b> Just come on time with your SONA ID, and the research assistants will guide you through everything.</p>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact">
+    <h2 class="sec"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat"/></svg>Need Help?</h2>
+    <p class="sec-sub">One front door for anything about studies, scheduling or credits.</p>
+    <div class="touch-grid">
+      <div class="touch-card">
+        <h3><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat"/></svg>Slack, fastest</h3>
+        <p class="big">#buad307-research-participation</p>
+        <p>Quick questions about scheduling and credits, usually answered the same day.</p>
+      </div>
+      <div class="touch-card">
+        <h3><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>SONA Administrative Team</h3>
+        <p class="big"><a href="mailto:mkt.sona&#64;marshall.usc.edu">mkt.sona&#64;marshall.usc.edu</a></p>
+        <p>Within 24 hours on weekdays. Include your SONA ID and the study name.</p>
+      </div>
+      <div class="touch-card">
+        <h3><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-alert"/></svg>Time-critical</h3>
+        <p class="big">Subject line: URGENT</p>
+        <p>Same address, flagged. Use it for a problem on the day of your session.</p>
+      </div>
+    </div>
+
+    <div class="note mt">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg>
+      <p><b>Can't find the lab on the day?</b> Text <a href="sms:2138347766">(213) 834-7766</a>. Drop-in hours are Wednesdays 2:00 to 3:00 PM, no appointment needed: <a href="https://usc.zoom.us/j/2138219746">join on Zoom</a>, or call the lab at 213.821.9752.</p>
+    </div>
+
+    <div class="guide-cta">
+      <div>
+        <strong>See the full program guide</strong>
+        <p>Credits, study schedule, deadlines and FAQs for BUAD 307 research participation.</p>
+      </div>
+      <a class="btn" href="https://usc-marshall-behavioral-lab.github.io/SONA-MKT-BUAD-307/">Open program site</a>
+    </div>
+
+    <div class="reset-wrap">
+      <button class="reset-btn" type="button" id="resetBtn"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-reset"/></svg>Reset checklist</button>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <p>BUAD 307 Research Participation Program · USC Marshall Behavioral Research Lab · Fall 2026</p>
+  </footer>
+
+</main>
+
+<script>
+(function(){
+  /* ---- Checklist (same storage key and format as the previous version, so saved progress carries over) ---- */
+  var STORAGE_KEY = 'buad307_inperson_checklist';
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('.ck-box'));
+  var fill = document.getElementById('progFill');
+  var count = document.getElementById('progCount');
+  var banner = document.getElementById('completeBanner');
+
+  function load(){ try{ return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; }catch(e){ return {}; } }
+  function save(){
+    var s = {};
+    boxes.forEach(function(b, i){ s[i] = b.checked; });
+    try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); }catch(e){}
+  }
+  function paint(){
+    var done = boxes.filter(function(b){ return b.checked; }).length;
+    var total = boxes.length;
+    fill.style.width = (total ? done/total*100 : 0) + '%';
+    fill.setAttribute('aria-valuenow', done);
+    fill.setAttribute('aria-valuemax', total);
+    count.textContent = done + ' of ' + total;
+    banner.hidden = !(total && done === total);
+    boxes.forEach(function(b){ b.closest('.ck-item').classList.toggle('done', b.checked); });
+  }
+
+  var state = load();
+  boxes.forEach(function(b, i){
+    if(state[i]) b.checked = true;
+    b.addEventListener('change', function(){ save(); paint(); });
+  });
+  paint();
+
+  document.getElementById('resetBtn').addEventListener('click', function(){
+    if(!confirm('Reset all checkboxes?')) return;
+    boxes.forEach(function(b){ b.checked = false; });
+    save(); paint();
+  });
+
+  /* ---- Scrollable nav cue ---- */
+  var qs = document.querySelector('.quicknav-in');
+  var qw = qs && qs.parentElement;
+  var qm = document.querySelector('.qn-more');
+  function qnUpdate(){
+    if(!qs || !qw) return;
+    var max = qs.scrollWidth - qs.clientWidth;
+    qw.classList.toggle('at-start', qs.scrollLeft <= 2);
+    qw.classList.toggle('at-end', max <= 2 || qs.scrollLeft >= max - 2);
+  }
+  if(qs){
+    qs.addEventListener('scroll', qnUpdate, {passive:true});
+    window.addEventListener('resize', qnUpdate);
+    if(qm) qm.addEventListener('click', function(){ qs.scrollBy({left: Math.round(qs.clientWidth * 0.7), behavior:'smooth'}); });
+    qnUpdate();
+    setTimeout(qnUpdate, 300);
+  }
+})();
+</script>
+</body>
+</html>
